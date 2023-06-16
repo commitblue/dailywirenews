@@ -1,3 +1,4 @@
 .env
 package-lock.json
-alreadyUsedNews.json 
+alreadyUsedNews.json
+node_modules
