@@ -1,6 +1,7 @@
 import fetch from "node-fetch"
 import { config } from "dotenv"
 import fs from "fs"
+//wsp
 config()
 const newsPath = "alreadyUsedNews.json"
 const alreadyPostedNews = JSON.parse(fs.readFileSync(newsPath))
